@@ -122,7 +122,7 @@
        socket.on('usernames',function(users){
             var html='<ul>';
             for(i=0;i<users.length;i++){
-              html+='<li><span>'+data[i]+'</span></li>';
+              html+='<li><span>'+users[i]+'</span></li>';
             }
             html=html+'</ul>';
             $users.html(html);
